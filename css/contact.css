@@ -1,0 +1,238 @@
+header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #cd2f18;
+}
+
+header section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header section h1 {
+  float: left;
+}
+
+header section nav {
+  float: left;
+  height: 100%;
+  margin-left: 52px;
+}
+
+header section nav li {
+  float: left;
+  height: 100%;
+}
+
+header section nav li a {
+  display: block;
+  height: 100%;
+  font-size: 12px;
+  color: #333333;
+  padding: 0 16px;
+  line-height: 82px;
+  height: 100%;
+}
+
+header section nav .active a {
+  color: #c92007;
+}
+
+header section aside {
+  float: right;
+  line-height: 82px;
+  color: #c92007;
+  margin-right: 46px;
+}
+
+header section aside .isize {
+  font-size: 26px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 368px;
+  min-width: 1024px;
+  position: relative;
+}
+
+#banner .banner_pic {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#banner hgroup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -75%);
+  text-align: center;
+}
+
+#banner hgroup h4 {
+  font-size: 56px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#banner hgroup h6 {
+  font-size: 20px;
+  color: white;
+}
+
+main section {
+  height: 166px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+main section:last-child {
+  border-bottom: 0;
+}
+
+main section article {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  padding-top: 60px;
+}
+
+main section article figure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #999999;
+}
+
+main section article figure figcaption {
+  color: #333333;
+  font-size: 20px;
+}
+
+main section article p {
+  flex: 1;
+  font-size: 14px;
+}
+
+main section article p:nth-child(2) {
+  flex: 2;
+}
+
+main section article p .icolor {
+  color: #c92007;
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer {
+  background: #dadada;
+  width: 100%;
+}
+
+footer section {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 42px;
+}
+
+footer section div {
+  float: right;
+  float: left;
+}
+
+footer section div .icolor {
+  color: #c92007;
+  margin-right: 12px;
+}
+
+footer section div:first-child {
+  margin-right: 76px;
+  padding-right: 130px;
+  border-right: 1px solid #c9c9c9;
+  padding-bottom: 20px;
+}
+
+footer section div:first-child h4 {
+  line-height: 42px;
+  font-weight: normal;
+}
+
+footer section div figure:first-child {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+footer section div figure:first-child .icolor {
+  font-size: 40px;
+}
+
+footer section div figure:first-child p {
+  font-size: 14px;
+}
+
+footer section div figure:first-child span {
+  font-size: 20px;
+  color: #c92007;
+}
+
+footer section div figure:last-child {
+  text-align: center;
+}
+
+footer section div figure:last-child img {
+  display: inline-block;
+}
+
+footer section div figure:last-child span {
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 12px;
+  color: #6d6d6d;
+}
+
+footer section div:last-child {
+  float: right;
+}
+
+footer section div form {
+  width: 328px;
+}
+
+footer section div form input, footer section div form textarea {
+  width: 100%;
+  border: 0;
+  background: #bbbbbb;
+  color: #eee;
+  padding: 15px 22px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+footer section div form button {
+  width: 100%;
+  color: #fff;
+  background: #c92007;
+  padding: 15px 0;
+}
+
+footer p {
+  border-top: 1px solid #c9c9c9;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+  line-height: 45px;
+}
